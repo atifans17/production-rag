@@ -1,0 +1,17 @@
+langchain-text-splitters
+tiktoken
+pypdf
+python-docx
+beautifulsoup4
+chromadb
+rank-bm25
+sentence-transformers
+openai
+python-dotenv
+fastapi
+uvicorn
+python-multipart
+pydantic
+streamlit
+requests
+numpy

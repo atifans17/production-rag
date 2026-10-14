@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "question": "How many hours of GPU execution time are free when starting a session in Google Colaboratory?",
+    "answer": "Only the first twelve hours of GPU execution time are free.",
+    "expected_substring": "first twelve hours of GPU",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "question": "What happens if I use a GPU in Colab for more than the allotted free time?",
+    "answer": "Any additional GPU time during that same session will incur a small charge.",
+    "expected_substring": "incurs a small charge",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "question": "What are two other terms commonly used to describe an API 'path'?",
+    "answer": "A path is also commonly called an endpoint or a route.",
+    "expected_substring": "an \"endpoint\" or a \"route\"",
+    "source_file": "fastapi_intro.html",
+    "answerable": true
+  },
+  {
+    "id": 4,
+    "question": "In the HTTP protocol, how does a client communicate to each path?",
+    "answer": "You communicate to each path using one or more HTTP methods.",
+    "expected_substring": "communicate to each path using one",
+    "source_file": "fastapi_intro.html",
+    "answerable": true
+  },
+  {
+    "id": 5,
+    "question": "What machine learning models were used for images before Convolutional Neural Networks became popular?",
+    "answer": "Before CNNs, techniques involved using MLPs (Multilayer Perceptrons) and SVMs (Support Vector Machines).",
+    "expected_substring": "using MLPs and another technique involved SVMs",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "question": "How can you train an image model if you don't have enough images in your dataset?",
+    "answer": "You can use an SVM, or you can generate synthetic data using a GAN.",
+    "expected_substring": "generate synthetic data using a GAN",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 7,
+    "question": "What are some examples of perceptually uniform colourmaps recommended by the matplotlib documentation?",
+    "answer": "Examples of perceptually uniform colourmaps include viridis, plasma, inferno, magma, and cividis.",
+    "expected_substring": "“viridis”, “plasma”, “inferno”",
+    "source_file": "book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 8,
+    "question": "How many files are required in the solution for transforming a heterogeneous dataset containing multiple delimiters?",
+    "answer": "The solution involves three files.",
+    "expected_substring": "solution in this section involves three files",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 9,
+    "question": "In Listing 2.6, what technique is used to create the second part of the trainY array?",
+    "answer": "It uses a randomly generated number called the perturbation technique.",
+    "expected_substring": "involves the “perturbation technique”",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 10,
+    "question": "What is an alternative name for a confusion matrix?",
+    "answer": "A confusion matrix is also called an error matrix.",
+    "expected_substring": "(also called an error matrix)",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 11,
+    "question": "Which values in a confusion matrix indicate incorrect predictions?",
+    "answer": "The off-diagonal values represent incorrect predictions.",
+    "expected_substring": "diagonal values of the confusion matrix are correct",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 12,
+    "question": "How does an augmented matrix behave mathematically?",
+    "answer": "An augmented matrix behaves like any other 2 × 3 matrix.",
+    "expected_substring": "behaves like any other 2 × 3 matrix",
+    "source_file": "book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 13,
+    "question": "Whose psychiatric role was the Eliza program designed to imitate?",
+    "answer": "Eliza was intended to imitate a psychiatrist from the Carl Rogers School.",
+    "expected_substring": "psychiatrist of the Carl Rogers School",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 14,
+    "question": "Which tool provides the alternative automatic documentation accessible at the /redoc endpoint?",
+    "answer": "The alternative automatic documentation is provided by ReDoc.",
+    "expected_substring": "provided by ReDoc",
+    "source_file": "fastapi_intro.html",
+    "answerable": true
+  },
+  {
+    "id": 15,
+    "question": "What are the two primary advantages of Principal Component Analysis (PCA)?",
+    "answer": "The advantages are reduced computation time due to fewer features, and the ability to graph the components when there are three or fewer.",
+    "expected_substring": "reduced computation time due to far",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 16,
+    "question": "What method is invoked at the start of an epoch during Keras lifecycle execution?",
+    "answer": "The method invoked is on_epoch_begin().",
+    "expected_substring": "def on_epoch_begin()",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 17,
+    "question": "In the dynamic_lstm_2TP.py code, how many hidden units are specified?",
+    "answer": "There are 5 hidden units specified.",
+    "expected_substring": "n_neurons = 5 # number of hidden",
+    "source_file": "AI_book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 18,
+    "question": "Which built-in Python function allows you to obtain the length of a string?",
+    "answer": "The len() function.",
+    "expected_substring": "obtained using the len()-function",
+    "source_file": "book.pdf",
+    "answerable": true
+  },
+  {
+    "id": 19,
+    "question": "Does Google Colab support running custom C++ binaries in GPU sessions?",
+    "answer": "I cannot answer this based on the provided documents.",
+    "expected_substring": null,
+    "source_file": null,
+    "answerable": false
+  },
+  {
+    "id": 20,
+    "question": "What is the maximum file upload size for a FastAPI application?",
+    "answer": "I cannot answer this based on the provided documents.",
+    "expected_substring": null,
+    "source_file": null,
+    "answerable": false
+  },
+  {
+    "id": 21,
+    "question": "How does the random forest algorithm calculate feature importance?",
+    "answer": "I cannot answer this based on the provided documents.",
+    "expected_substring": null,
+    "source_file": null,
+    "answerable": false
+  },
+  {
+    "id": 22,
+    "question": "Where is the generated API reference for LangChain hosted?",
+    "answer": "The generated API reference for LangChain is hosted at reference.langchain.com.",
+    "expected_substring": "reference.langchain.com",
+    "source_file": "langchain_overview_2.md",
+    "answerable": true
+  },
+  {
+    "id": 23,
+    "question": "What does the `make export-htmltest` command do?",
+    "answer": "The `make export-htmltest` command runs `make export` and then `make htmltest` in one go.",
+    "expected_substring": "in one go",
+    "source_file": "langchain_overview_2.md",
+    "answerable": true
+  },
+  {
+    "id": 24,
+    "question": "Compared to a parametric-only seq2seq baseline, what kind of language do RAG models generate?",
+    "answer": "RAG models generate language that is more specific, diverse, and factual.",
+    "expected_substring": "diverse and factual language",
+    "source_file": "rag_original_paper_2.pdf",
+    "answerable": true
+  },
+  {
+    "id": 25,
+    "question": "How many total trainable parameters are in the RAG models described in the original RAG paper?",
+    "answer": "The RAG models contain a total of 626M trainable parameters.",
+    "expected_substring": "total of 626M",
+    "source_file": "rag_original_paper_2.pdf",
+    "answerable": true
+  },
+  {
+    "id": 26,
+    "question": "What method did Clock Tower X use to flood the information space with sympathetic content in 2025?",
+    "answer": "Clock Tower X used RAG poisoning to flood the information space.",
+    "expected_substring": "used RAG poisoning to flood",
+    "source_file": "rag_summary_2.docx",
+    "answerable": true
+  },
+  {
+    "id": 27,
+    "question": "Why does the Retro method incur a high cost of training runs?",
+    "answer": "The Retro method incurs a high cost because it is trained from scratch.",
+    "expected_substring": "trained from scratch",
+    "source_file": "rag_summary_2.docx",
+    "answerable": true
+  },
+  {
+    "id": 28,
+    "question": "What are the two varieties of reflection tokens introduced by Self-RAG?",
+    "answer": "The two varieties of reflection tokens are \"retrieve\" and \"critic\".",
+    "expected_substring": "These tokens come in two varieties",
+    "source_file": "rag_survey_2.pdf",
+    "answerable": true
+  },
+  {
+    "id": 29,
+    "question": "What are the three developmental paradigms of the RAG framework?",
+    "answer": "The three developmental paradigms are Naive RAG, Advanced RAG, and Modular RAG.",
+    "expected_substring": "Naive RAG, Advanced RAG, and Modular RAG",
+    "source_file": "rag_survey_2.pdf",
+    "answerable": true
+  },
+  {
+    "id": 30,
+    "question": "Why are normalization techniques like LayerNorm and BatchNorm widely used in the deep learning community?",
+    "answer": "They are widely used as a means to stabilize learning.",
+    "expected_substring": "means to stabilise learning",
+    "source_file": "transformer_paper_2.pdf",
+    "answerable": true
+  },
+  {
+    "id": 31,
+    "question": "How does the transformer block increase the capacity of the first self-attention stage?",
+    "answer": "It applies H sets of self-attention in parallel, which are termed H heads.",
+    "expected_substring": "first self-attention stage",
+    "source_file": "transformer_paper_2.pdf",
+    "answerable": true
+  },
+  {
+    "id": 32,
+    "question": "What is the specific learning rate used to train the GPT-4 model mentioned in the RAG survey?",
+    "answer": "I cannot answer this based on the provided documents.",
+    "expected_substring": null,
+    "source_file": null,
+    "answerable": false
+  },
+  {
+    "id": 33,
+    "question": "How many parameters are in the transformer model used for the weather forecasting system Pangu-Weather?",
+    "answer": "I cannot answer this based on the provided documents.",
+    "expected_substring": null,
+    "source_file": null,
+    "answerable": false
+  }
+]
